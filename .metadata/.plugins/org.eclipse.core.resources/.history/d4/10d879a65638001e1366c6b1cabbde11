@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class FuncSample {
+	public static void main(String args[]) {
+		System.out.println("Enter two numbers:");
+		Scanner input = new Scanner(System.in);
+		int num1 = input.nextInt();
+		int num2 = input.nextInt();
+		int result1 = sum(num1,num2);
+		int result2 = sub(num1,num2);
+		int result3 = mul(num1,num2);
+		int result4 = div(num1,num2);
+		
+		System.out.println("Addition :"+result1);
+		System.out.println("Subtraction :"+result2);
+		System.out.println("Multiplication :"+result3);
+		System.out.println("Division :"+result4);
+	}
+	
+	static int sum (int a, int b) {
+		int s = a+b ;
+		return s;
+	}
+	static int sub (int a, int b) {
+		int s = a-b ;
+		return s;
+	}
+	static int mul (int a, int b) {
+		int s = a*b ;
+		return s;
+	}
+	static int div (int a, int b) {
+		int s = a/b ;
+		return s;
+	}
+}

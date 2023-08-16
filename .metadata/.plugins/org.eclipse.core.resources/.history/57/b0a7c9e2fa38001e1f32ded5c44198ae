@@ -1,0 +1,27 @@
+
+public class Hello {
+	
+	static int b = 20;
+	int a = 10;
+	
+	public static void main(String args[]) {
+		
+		b = 30;
+				
+		Hello h = new Hello();
+		Hello h1 = new Hello();
+		System.out.println(h.a);
+		h.hello();
+		hey();
+		System.out.println(h.b);
+	}
+	
+	void hello () {
+		
+	}
+	
+	static void hey() {
+		
+	}
+
+}

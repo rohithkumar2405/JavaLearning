@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Sample {
+	
+	int input1 , input2, sum ;
+	
+	void GetInput() {
+		System.out.println("Enter the first number:");
+		Scanner sc = new Scanner(System.in);
+		input1 = sc.nextInt();
+		System.out.println("Enter the second number:");
+		input2 = sc.nextInt();	}
+	
+    void DisplaySum(int a, int b) {
+    	sum = a+b;
+		System.out.println(sum);
+	}
+}

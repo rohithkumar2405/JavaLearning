@@ -1,0 +1,17 @@
+
+public class B extends A{
+
+	int a ;
+	
+	void Display() {
+		System.out.println("It's B");
+		super.Display();
+		a = 20;
+		super.a = 30 ;
+	}
+	
+	public static void main(String[] args) {
+		B b = new B();
+		b.Display();
+	}
+}

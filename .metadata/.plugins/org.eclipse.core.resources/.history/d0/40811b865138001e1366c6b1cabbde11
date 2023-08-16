@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class ForSample {
+
+	public static void main(String a[]) {
+		System.out.println("Enter the number:");
+		Scanner pn = new Scanner(System.in);
+		int num = pn.nextInt();
+		int sum =0 ; 
+		for(int i = 0 ; i<num ; i++) {
+			sum = sum + i;
+		}
+		System.out.println("Result" + sum);
+	}
+}

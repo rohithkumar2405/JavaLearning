@@ -1,0 +1,20 @@
+
+public class EvenOdd {
+	
+    EvenOdd(int a){
+        if (a%2==0){
+            this.checkNumber();
+        }
+        else{
+            System.out.println("The number is odd");
+        }
+    }
+    
+    void checkNumber(){
+        System.out.println("happy number");
+    }
+    
+    public static void main(String ar[]){
+        EvenOdd obj = new EvenOdd(2);
+    }
+}

@@ -1,0 +1,8 @@
+
+public class ClassExample {
+
+	public static void main(String a[]) {
+		Calculation c = new Calculation();
+		c.sum();
+	}
+}
